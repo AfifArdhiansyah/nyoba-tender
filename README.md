@@ -322,10 +322,13 @@ API documentation is available in Postman format. You can import the Postman JSO
 
 https://documenter.getpostman.com/view/24200467/2sA3XJn5NE
 
-## Contribution
+## Contributing
 
-We welcome contributions from the community. If you would like to contribute to this project, please go to "Issues" to find the work that needs to be done or create a "Pull Request" with your proposed changes.
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for more details.
+This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).

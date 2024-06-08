@@ -7,6 +7,65 @@
 	},
 	"item": [
 		{
+			"name": "Register",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/vnd.api+json",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/vnd.api+json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Alif Radifan Piandy",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "alif@gmail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "V!ki120803",
+							"type": "text"
+						},
+						{
+							"key": "password_confirmation",
+							"value": "V!ki120803",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/register",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "Login",
 			"request": {
 				"method": "POST",
@@ -94,65 +153,6 @@
 					"path": [
 						"api",
 						"user"
-					]
-				}
-			},
-			"response": []
-		},
-		{
-			"name": "Register",
-			"request": {
-				"method": "POST",
-				"header": [
-					{
-						"key": "Accept",
-						"value": "application/vnd.api+json",
-						"type": "text"
-					},
-					{
-						"key": "Content-Type",
-						"value": "application/vnd.api+json",
-						"type": "text"
-					}
-				],
-				"body": {
-					"mode": "formdata",
-					"formdata": [
-						{
-							"key": "name",
-							"value": "Alif Radifan Piandy",
-							"type": "text"
-						},
-						{
-							"key": "email",
-							"value": "alif@gmail.com",
-							"type": "text"
-						},
-						{
-							"key": "password",
-							"value": "V!ki120803",
-							"type": "text"
-						},
-						{
-							"key": "password_confirmation",
-							"value": "V!ki120803",
-							"type": "text"
-						}
-					]
-				},
-				"url": {
-					"raw": "http://127.0.0.1:8000/api/register",
-					"protocol": "http",
-					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
-					],
-					"port": "8000",
-					"path": [
-						"api",
-						"register"
 					]
 				}
 			},
